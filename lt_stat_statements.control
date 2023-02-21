@@ -1,0 +1,5 @@
+# lt_stat_statements extension
+comment = 'Track planning and execution statistics of all SQL statements executed'
+default_version = '1.8'
+module_pathname = '$libdir/lt_stat_statements'
+relocatable = true
