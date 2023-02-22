@@ -3206,11 +3206,6 @@ JumbleExpr(pgssJumbleState *jstate, Node *node)
 				JumbleExpr(jstate, (Node *) tsc->repeatable);
 			}
 			break;
-		case T_LtRownum:
-			{
-				/* do nothing */
-			}
-			break;
 		default:
 			/* Only a warning, since we can stumble along anyway */
 			elog(WARNING, "unrecognized node type: %d",
